@@ -1,9 +1,18 @@
 import math  
 
 def main():
-#TO DO  
+    a = int(input("Enter A: "))
+    b = int(input("Enter B: "))
 
-def pythag(A,B):
-#TO DO  
+    c = pythag(a, b)
+    print("The hypotenuse is:", c)
+
+
+def pythag(A, B):
+    c = math.sqrt(A**2 + B**2)
+    return c
+
+
+
 
 main()
