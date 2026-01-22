@@ -3,6 +3,8 @@ def main():
     myFunction(slow)
 
 def myFunction(text):
-  #Your code goes here.
+  text = input("Enter text: ")
+  print (text.replace(" ", "..."))
+  
 
 main()
